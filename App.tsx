@@ -9,6 +9,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import FloatingWhatsApp from './components/FloatingWhatsApp';
 import Gallery from './components/Gallery';
+import { COMPANY_INFO } from './constants';
 
 const App: React.FC = () => {
   return (
@@ -58,7 +59,7 @@ const App: React.FC = () => {
                     Agendar Agora
                   </a>
                   <a
-                    href={`https://wa.me/${process.env.PHONE_RAW || '94991514806'}`}
+                    href={`https://wa.me/${COMPANY_INFO.phoneRaw}`}
                     className="inline-flex items-center justify-center px-12 py-6 bg-white/10 text-white border border-white/20 font-black rounded-2xl hover:bg-white/20 transition-all text-xl backdrop-blur-sm"
                   >
                     WhatsApp
