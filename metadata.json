@@ -1,0 +1,7 @@
+{
+  "name": "Brisa Norte Climatização",
+  "description": "Website profissional para Brisa Norte - Especialistas em climatização e manutenção de ar-condicionado em Xinguara – PA.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
